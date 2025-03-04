@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Babari</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header">
+            <nav class="nav container">
+                <div class="nav__data">
+                    <a href="index.html" class="nav__logo">
+                        <img src="assets/img/BABARILOGO.png" alt="Babarilogo" class="nav__logo-img">
+                    </a>
+    
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line nav__toggle-menu"></i>
+                        <i class="ri-close-line nav__toggle-close"></i>
+                    </div>
+                </div>
+
+                <!--=============== NAV MENU ===============-->
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li>
+                            <a href="index.html" class="nav__link">Home</a>
+                        </li>
+                       
+                        <!--=============== DROPDOWN 1 ===============-->
+                        <li class="dropdown__item">
+                            <div class="nav__link dropdown__button">
+                                Layanan <i class="ri-arrow-down-s-fill dropdown__arrow"></i>
+                            </div>
+
+                            <div class="dropdown__container">
+                                <div class="dropdown__content">
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-briefcase-line"></i>
+                                        </div>
+    
+                                        <span class="dropdown__title">Produk Babari</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="https://www.babari.id/" class="dropdown__link">Produk UMKM</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Maklon</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Jasa</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-hand-heart-line"></i>
+                                        </div>
+    
+                                        <span class="dropdown__title">Konsultasi Bisnis</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">Perencanaan Bisnis</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Pemasaran Digital</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Branding & Desain</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-medal-line"></i>
+                                        </div>
+    
+                                        <span class="dropdown__title">Pelatihan & Workshop</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">Pelatihan Digital Marketing</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Workshop Pengembangan Produk</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Pelatihan Manajemen Bisnis</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-user-line"></i>
+                                        </div>
+    
+                                        <span class="dropdown__title">Bergabung Sebagai Mitra</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">Daftar Mitra</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Mitra Pengembangan Produk</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Mitra Penjualan</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--=============== DROPDOWN 2 ===============-->
+                        <li class="dropdown__item">
+                            <div class="nav__link dropdown__button">
+                                Tentang Kami <i class="ri-arrow-down-s-fill dropdown__arrow"></i>
+                            </div>
+
+                            <div class="dropdown__container">
+                                <div class="dropdown__content">
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-community-line"></i>
+                                        </div>
+    
+                                        <span class="dropdown__title">Tentang Babari</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">Visi & Misi</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Team</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-shield-line"></i>
+                                        </div>
+    
+                                        <span class="dropdown__title">Keamanan & Privasi</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">Kebijakan Privasi</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Ketentuan Penggunaan</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--=============== DROPDOWN 3 ===============-->
+                        <li class="dropdown__item">                        
+                            <div class="nav__link dropdown__button">
+                                Resources <i class="ri-arrow-down-s-fill dropdown__arrow"></i>
+                            </div>
+
+                            <div class="dropdown__container">
+                                <div class="dropdown__content">
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-bookmark-line"></i>
+                                        </div>
+    
+                                        <span class="dropdown__title">Bahan Bacaan</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">Artikel UMKM</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Panduan Bisnis</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">E-book Gratis</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-video-line"></i>
+                                        </div>
+    
+                                        <span class="dropdown__title">Video & Tutorial</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">Webinar Bisnis</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Tutorial Desain</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Pelatihan Digital</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-question-line"></i>
+                                        </div>
+    
+                                        <span class="dropdown__title">FAQ & Bantuan</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">Tanya Jawab</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Panduan Penggunaan</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <div class="nav__actions">
+                            <!-- Search button -->
+                            <div class="nav__search">
+                            <i class="ri-search-line nav__search" id="search-btn"></i>
+                            </div>
+             
+                            <!-- Login button -->
+                            <div class="nav__login">
+                            <button class="nav__login" id="login-btn">Log in</button>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== SEARCH ====================-->
+        <div class="search" id="search">
+            <form action="" class="search__form">
+            <i class="ri-search-line search__icon"></i>
+            <input type="search" placeholder="Cari produk di Babari" class="search__input">
+            </form>
+
+            <i class="ri-close-line search__close" id="search-close"></i>
+        </div>
+
+        <!--==================== LOGIN ====================-->
+        <div class="login" id="login">
+            <form action="" class="login__form">
+            <h2 class="login__title">Log In</h2>
+            
+            <div class="login__group">
+                <div>
+                    <label for="email" class="login__label">Email</label>
+                    <input type="email" placeholder="Write your email" id="email" class="login__input">
+                </div>
+                
+                <div>
+                    <label for="password" class="login__label">Password</label>
+                    <input type="password" placeholder="Enter your password" id="password" class="login__input">
+                </div>
+            </div>
+
+            <div>
+                <p class="login__signup">
+                    You do not have an account? <a href="#">Sign up</a>
+                </p>
+    
+                <a href="#" class="login__forgot">
+                    You forgot your password
+                </a>
+    
+                <button type="submit" class="login__button">Log In</button>
+            </div>
+            </form>
+
+            <i class="ri-close-line login__close" id="login-close"></i>
+        </div>
+        <!--==================== VIDEO CONTENT ====================-->
+        <div class="main_content">
+            <section class="video-content">
+                <div class="video-wrapper">
+                    <video class="video" autoplay loop muted>
+                        <source src="assets/video/videocontent.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </section>
+            
+            <!--==================== MAIN ====================-->
+            <section class="main-section">
+                <h1>Solusi Digital untuk Bisnis Anda</h1>
+                <p> Bergabung dengan Babari.id memberi Anda kesempatan untuk mengakses berbagai solusi digital yang efektif. 
+                    Mulai dari layanan maklon, pemasaran digital, hingga akses ke bahan baku berkualitas, 
+                    kami siap membantu Anda fokus pada pengembangan produk dan inovasi.</p>
+                <div class="button-container">
+                    <button class="btn-primary"onclick="window.location.href='signup.html'">Daftarkan diri Anda sekarang</button>
+                    <button class="btn-secondary"onclick="window.location.href='login.html'">Kembangkan bisnis Anda</button>
+            </section>
+        </div>
+        
+        <!--==================== MAPS SECTION ====================--> 
+        <div class="stats-section">
+            <div class="stats">
+                <div class="stat-item">
+                    <h2>7M+</h2>
+                    <p>UMKM di Jawan Barat</p>
+                </div>
+                <hr>
+                <div class="stat-item">
+                    <h2>27</h2>
+                    <p>Kabupaten/kota tersebar di Jawa BArat</p>
+                </div>
+                <hr>
+                <div class="stat-item">
+                    <h2>200</h2>
+                    <p>Produk lokal unggulan</p>
+                <hr>
+                </div>
+            </div> 
+                <div class="map-section">
+                    <h2>Babari hadir untuk para UMKM dan Wirausaha di Jawa Barat</h2>
+                    <p>Babari.id berkomitmen untuk memberdayakan UMKM dan Wirausaha di Jawa Barat 
+                    dengan menyediakan akses ke layanan maklon yang efisien dan terjangkau.
+                    <div   div class="map">
+                    <img src="assets/img/jabar.svg" class="maps-image" alt="Indonesia">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--==================== IMAGE CONTENT ====================-->
+        <div class="grider">
+            <h3>Bergabunglah dengan kami!</h3>
+            <div class="grid-container">
+                <a href="belantar.html" class="card bg-card-1">
+                    <div class="card-image"></div>
+                    <div class="card-content">
+                        <span class="subtitle">Dukung Langkah Wirausaha Anda</span>
+                        <span class="title">Marketplace | Peluang Bisnis</span>
+                        <div class="description">Mulai dan kembangkan usaha Anda di belantar.store dengan mudah.</div>
+                        <button class="learn-more">Learn More</button>
+                    </div>
+                </a>
+                <a href="kawankop.html" class="card bg-card-2">
+                    <div class="card-image"></div>
+                    <div class="card-content">
+                        <span class="subtitle">Solusi untuk Koperasi dan Anggota</span>
+                        <span class="title">Kemitraan | Pengembangan Koperasi</span>
+                        <div class="description">Bergabunglah dengan Kawan Koperasi untuk memperkuat dan mengembangkan usaha Anda.</div>
+                        <button class="learn-more">Learn More</button>
+                    </div>
+                </a>
+                <a href="kolaborasi.html" class="card bg-card-3">
+                    <div class="card-image"></div>
+                    <div class="card-content">
+                        <span class="subtitle">Solusi untuk E-Kolaborasi dan Mitra Bisnis</span>
+                        <span class="title">E-Kolaborasi | Inovasi Tanpa Batas</span>
+                        <div class="description">Bergabunglah dengan Babari.id untuk memperkuat dan mengembangkan usaha Anda.</div>
+                        <button class="learn-more">Learn More</button>
+                    </div>
+                </a>
+                <a href="crowdfunding.html" class="card bg-card-4">
+                    <div class="card-image"></div>
+                    <div class="card-content">
+                        <span class="subtitle">Solusi untuk Investor dan Pendanaan</span>
+                        <span class="title">Kemitraan | Pengembangan Proyek</span>
+                        <div class="description">Bergabung dengan crowdfunding kami untuk berinvestasi dalam proyek-proyek inovatif.</div>
+                        <button class="learn-more">Learn More</button>
+                    </div>
+                </a>
+            </div>
+        </div>        
+
+        <!--==================== CONTENT1 ====================-->
+        <div class="sp">
+            <p class="text-l sp-text">Siap untuk memulai bisnis Anda?</p>
+            <button class="button primary large">
+              <div class="custom-content">Mulai sekarang</div>
+            </button>
+        </div>
+        
+        <!--==================== Product SLidder ====================-->
+        <div class="bg-gray-100">
+            <div class="slider mx-auto py-8">
+              <h2 class="text-4xl font-bold text-center mb-8">Maklun Produk</h2>
+              <div class="relative">
+                <button class="scroll-button left" disabled id="scrollLeftButton">
+                    <i class="ri-arrow-left-circle-fill"></i>
+                </button>
+                <div class="scroll-slider" id="productCategories">
+                  <div class="scroll-item">
+                    <a class="block text-center" href="/app/products/mens-clothing/t-shirts">
+                      <img alt="T-shirts image" class="item-image" src="/assets/img/tshirt.png"/>
+                      <p class="mt-2">T-shirts</p>
+                    </a>
+                  </div>
+                  <div class="scroll-item">
+                    <a class="block text-center" href="/app/products/womens-clothing/sweatshirts">
+                      <img alt="Sweatshirt image" class="item-image" src="/assets/img/sweater.png"/>
+                      <p class="mt-2">Sweatshirt</p>
+                    </a>
+                  </div>
+                  <div class="scroll-item">
+                    <a class="block text-center" href="/app/products/home-and-living/mugs">
+                      <img alt="Mugs image" class="item-image" src="/assets/img/jacket.png"/>
+                      <p class="mt-2">Jacket</p>
+                    </a>
+                  </div>
+                  <div class="scroll-item">
+                    <a class="block text-center" href="/app/products/home-and-living/mugs">
+                      <img alt="Mugs image" class="item-image" src="/assets/img/totebag.png"/>
+                      <p class="mt-2">Totebag</p>
+                    </a>
+                  </div>
+                  <div class="scroll-item">
+                    <a class="block text-center" href="/app/products/home-and-living/mugs">
+                      <img alt="Mugs image" class="item-image" src="/assets/img/packaging.png"/>
+                      <p class="mt-2">Packaging</p>
+                    </a>
+                  </div>
+                  <div class="scroll-item">
+                    <a class="block text-center" href="/app/products/home-and-living/mugs">
+                      <img alt="Mugs image" class="item-image" src="/assets/img/food.png"/>
+                      <p class="mt-2">Food</p>
+                    </a>
+                  </div>
+                  <div class="scroll-item">
+                    <a class="block text-center" href="/app/products/home-and-living/mugs">
+                      <img alt="Mugs image" class="item-image" src="/assets/img/pot.png"/>
+                      <p class="mt-2">Pot</p>
+                    </a>
+                  </div>
+                </div>
+                <button class="scroll-button right" id="scrollRightButton">
+                    <i class="ri-arrow-right-circle-fill"></i>
+                </button>
+              </div>
+              <div class="mt-8">
+                <p class="text-xl font-semibold mb-4">Explore produk Maklun Terbaik di Babari.</p>
+              </div>
+            </div>
+        </div>
+        <!--==================== TESTIMONI CONTENT ====================-->
+        <div class="testimonial">
+            <div class="testimonial-text text-right">
+                <p class="testimonial-quote">"Berkat Babari dan Kawankop, saya berhasil membangun usaha berbasis kulit ayam dan ceker di Pasar Ramadhan Rancaekek. Dukungan bahan baku, modal, dan pendampingan yang diberikan sangat membantu saya dalam mengembangkan bisnis ini. Sukses selalu!"</p>
+                <p class="testimonial-quote-author">Idam, Rancaekek</p>
+            </div>
+            <div class="inline-video-wrapper">
+                <video width="300" height="530" src="/assets/video/idam.mp4" controls controlslist="nodownload" preload="metadata" class="inline-video"></video>
+                <button class="inline-video-overlay">
+                    <img width="300" height="530" alt="Idam" src="/assets/img/foto.jpg" class="inline-video-overlay-image" loading="lazy">
+                    <span class="play-button">▶</span>
+                </button>
+            </div>
+        </div>
+        
+        <div class="testimonial testimonial-reverse">
+            <div class="inline-video-wrapper">
+                <video width="300" height="530" src="/pfh/assets/mp4/john-testimonial.mp4" controls controlslist="nodownload" preload="metadata" class="inline-video"></video>
+                <button class="inline-video-overlay">
+                    <img width="300" height="530" alt="Pa Afif" src="/pfh/assets/john-doe.png" class="inline-video-overlay-image" loading="lazy">
+                    <span class="play-button">▶</span>
+                </button>
+            </div>
+            <div class="testimonial-text text-left">
+                <p class="testimonial-quote">"Bergabung dengan Babari.id membuka peluang besar bagi bisnis saya. Dari maklon hingga pemasaran, semuanya lebih mudah dengan dukungan ekosistem yang kuat!"</p>
+                <p class="testimonial-quote-author">Afief Maulana, Bandung</p>
+            </div>
+        </div>
+        
+        <!--==================== SLIDER CONTENT ====================-->
+        <section class="slider-container">
+            <div class="text-center">
+              <p>Featured in</p>
+            </div>
+          
+            <div class="slider-track">
+                <ul class ="slider-list">
+                <!-- FIRST SLIDE -->
+                    <li><img src="/assets/img/UNPAS.png" alt="" width="50px"></li>
+                    <li><img src="/assets/img/fkipunpas.png" alt="" width="100px"></li>
+                    <li><img src="/assets/img/merdeka.png" alt="" width="100px"></li>
+                    <li><img src="/assets/img/kemendikbud.png" alt="" width="50px"></li>
+                    <li><img src="/assets/img/kawankop.png" alt="" width="50px"></li>
+                    <li><img src="/assets/img/logo belantar.png" alt="" width="50px"></li>
+                <!-- DUPLICATE SLIDE -->
+                    <li><img src="/assets/img/UNPAS.png" alt="" width="50px"></li>
+                    <li><img src="/assets/img/fkipunpas.png" alt="" width="100px"></li>
+                    <li><img src="/assets/img/merdeka.png" alt="" width="100px"></li>
+                    <li><img src="/assets/img/kemendikbud.png" alt="" width="50px"></li>
+                    <li><img src="/assets/img/kawankop.png" alt="" width="50px"></li>
+                    <li><img src="/assets/img/logo belantar.png" alt="" width="50px"></li>
+                </ul>
+            </div>
+        </section>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <img src="/assets/img/BABARILOGO.png" class="footer-logo">
+                    <p>Easy to Start, Easy to Capital, Easy to Market.</p>
+                    <div class="social-icons">
+                        <a href="#" target="_blank"><i class="ri-facebook-box-fill" alt="Facebook"></i></a>
+                        <a href="https://www.instagram.com/babari.id_/" target="_blank"><i class="ri-instagram-fill" alt="Instagram"></i></a>
+                        <a href="#" target="_blank"><i class="bi bi-tiktok" alt="Tiktok"></i></a>
+                        <a href="#" target="_blank"><i class="ri-youtube-fill" alt="YouTube"></i></a>
+                        <a href="#" target="_blank"><i class="bi bi-twitter-x" alt="X"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Mulai Menjual</h4>
+                    <ul>
+                        <li><a href="#">Produk UMKM</a></li>
+                        <li><a href="#">Maklun</a></li>
+                        <li><a href="#">Jasa</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>App</h4>
+                    <ul>
+                        <li><a href="#">Designer</a></li>
+                        <li><a href="#">Label</a></li>
+                        <li><a href="#">Log in</a></li>
+                        <li><a href="#">Sign up</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Tentang Babari.id</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Webinars</a></li>
+                        <li><a href="#">Podcast</a></li>
+                        <li><a href="#">Youtube</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Babari.id. All rights reserved.</p>
+            </div>
+        </footer>
+        
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
