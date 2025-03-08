@@ -690,6 +690,7 @@ a {
 }
 .btn-secondary:hover {
   background-color: var(--button-color);
+  color: white;
   border-color: var(--button-color);
 }
 
