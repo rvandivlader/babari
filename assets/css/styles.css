@@ -663,7 +663,7 @@ a {
 }
 .btn-primary {
   background-color: #809A47; /* Warna latar putih */
-  color: #435334; /* Warna teks gelap */
+  color: var(--button-color);
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -674,13 +674,13 @@ a {
   transition: all 0.3s ease;
 }
 .btn-primary:hover {
-  background-color: #A5BD78; /* Warna latar saat hover */
+  background-color: var(--hover-color);
 }
 .btn-secondary {
   background: none;
   color: #435334;
   padding: 10px 20px;
-  border: 1px solid #809A47;
+  border: 1px solid var(--button-color);
   border-radius: 5px;
   font-size: 1rem;
   font-weight: bold;
@@ -688,8 +688,8 @@ a {
   transition: all 0.3s ease;
 }
 .btn-secondary:hover {
-  background-color: #809A47; /* Warna latar saat hover */
-  border-color: #809A47; /* Warna border saat hover */
+  background-color: var(--button-color);
+  border-color: var(--button-color);
 }
 
 /*=============== RESPONSIVE STYLES ===============*/
@@ -1030,7 +1030,7 @@ hr {
 .learn-more {
   padding: 8px 16px;
   border: none;
-  background-color: #809A47;
+  background-color: var(--button-color);
   color: white;
   cursor: pointer;
   font-size: 14px;
@@ -1038,7 +1038,7 @@ hr {
 }
 
 .learn-more:hover {
-  background-color: #A5BD78;
+  background-color: var(--hover-color);
 }
 
 /*=============== BACKGROUND IMAGES ===============*/
@@ -1083,18 +1083,18 @@ hr {
   font-size: 16px;  /* Mengurangi ukuran font */
   font-weight: 600;
   color: #435334;
-  background-color: #809A47;
+  background-color: var(--button-color);
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .button.primary {
-  background-color: #809A47;
+  background-color: var(--button-color);
 }
 
 .button.primary:hover {
-  background-color: #A5BD78;
+  background-color: var(--hover-color);
 }
 
 .custom-content {
