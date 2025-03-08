@@ -7,9 +7,11 @@
   --header-height: 3.5rem;
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: #FF6B6B;
-  --first-color-lighten: #4ECDC4;
-  --title-color: #333333;
+  --first-color: #00A86B;
+  --first-color-lighten: #006D5B;
+  --button-color: #4caf50;
+  --hover-color: #81c784;
+  --title-color: #212529;
   --text-color: #333333;
   --body-color: #FAFAFA;
   --container-color: hsl(230, 100%, 97%);
@@ -179,13 +181,13 @@ a {
 .nav__login{
   font-size: 1.25rem;
   color: #fff;
-  background-color: #40A2E3;
+  background-color: #4CAF50;
   border-radius: 50px;
   cursor: pointer;
   padding: 0 10px;
 }
 .nav__login:hover {
-  background-color: #BBE2EC;
+  background-color: #81C784;
 }
 
 .nav__search,
@@ -198,7 +200,7 @@ a {
 }
 
 :is(.nav__logo, .nav__search, .nav__toggle, .nav__link):hover {
-  color: #A5BD78;
+  color: #81C784;
 }
 
 
