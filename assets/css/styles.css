@@ -7,10 +7,10 @@
   --header-height: 3.5rem;
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: #809A47;
-  --first-color-lighten: #F5F5DC;
-  --title-color: #809A47;
-  --text-color: #4F4F4F;
+  --first-color: #40A2E3;
+  --first-color-lighten: #BBE2EC;
+  --title-color: #40A2E3;
+  --text-color: #0D9276;
   --body-color: #fff;
   --container-color: hsl(230, 100%, 97%);
   --border-color: hsl(230, 25%, 80%);
