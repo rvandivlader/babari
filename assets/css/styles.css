@@ -7,11 +7,11 @@
   --header-height: 3.5rem;
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: #FF760D;
-  --first-color-lighten: #BBE2EC;
-  --title-color: #40A2E3;
-  --text-color: #0D9276;
-  --body-color: #fff;
+  --first-color: #FF6B6B;
+  --first-color-lighten: #4ECDC4;
+  --title-color: #333333;
+  --text-color: #333333;
+  --body-color: #FAFAFA;
   --container-color: hsl(230, 100%, 97%);
   --border-color: hsl(230, 25%, 80%);
   /*========== Font and typography ==========*/
@@ -785,7 +785,7 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background: #0D9276;
+  background: #FAFAFA;
   padding: 40px;
 }
 
@@ -806,7 +806,7 @@ a {
 
 .stat-item h2 {
   font-size: 36px;
-  color: #435334; /* Warna teks utama */
+  color: var(--title-color);
   margin: 0;
   font-weight: 400;
   font-style: normal;
@@ -814,7 +814,7 @@ a {
 
 .stat-item p {
   font-size: 16px;
-  color: #435334; /* Warna teks deskripsi */
+  color: var(--title-color);
   margin: 0;
 }
 
@@ -831,7 +831,7 @@ hr {
 
 .map-section h2 {
   font-size: 28px; /* Ukuran font utama */
-  color: #435334; /* Warna teks */
+  color: var(--title-color);
   font-family: "Bungee", serif;
   font-weight: 400;
   font-style: normal;
@@ -843,7 +843,7 @@ hr {
 
 .map-section p {
   font-size: 16px;
-  color: #435334;
+  color: var(--title-color);
   font-family: "Poppins", sans-serif;
   font-style: normal;
   margin: 20px 50px 0 50px;
